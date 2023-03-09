@@ -4,10 +4,13 @@
 #
 # On branch master
 # Changes to be committed:
-#	modified:   .gitignore
+#	modified:   ConfigVim/coc-plugins.txt
 #	modified:   backups/COMMIT_EDITMSG~
+#	modified:   backups/coc-plugins.txt~
+#	modified:   undos/C%%Users%PC%.vim%ConfigVim%coc-plugins.txt
 #
 # Changes not staged for commit:
 #	modified:   plugged/vim-bootstrap-updater (untracked content)
 #	modified:   plugged/vim-dadbod-ui (untracked content)
+#	modified:   undos/C%%Users%PC%.vim%ConfigVim%coc-plugins.txt
 #
