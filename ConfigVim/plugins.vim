@@ -58,6 +58,7 @@ Plug 'jwalton512/vim-blade'
 Plug 'sirver/ultisnips'
 Plug 'mattn/emmet-vim'
 Plug 'jceb/emmet.snippets'
+Plug 'isruslan/vim-es6'
 
 "typing
 Plug 'jiangmiao/auto-pairs'           "emparejar llaves
@@ -191,8 +192,8 @@ let ayucolor="mirage"
 set background=dark
 let g:gruvox_cotrast_dark="hard"
 let g:lightline = {
-                  \ 'colorscheme': 'onedark',
-                  \ }
+      \ 'colorscheme': 'onedark',
+      \ }
 colorscheme onedark
 
 "configuracion airline
