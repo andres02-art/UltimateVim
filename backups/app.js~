@@ -1,9 +1,0 @@
-import './bootstrap';
-import './vue'
-
-document.addEventListener('DOMContentLoaded', ()=>{
-    const index = new Vue({
-        el: '#VueApi'
-    });
-    console.log(index)
-})
