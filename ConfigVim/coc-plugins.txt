@@ -13,6 +13,7 @@ coc-db
 coc-blade-linter
 coc-css
 coc-tailwindcss
+coc-vetur
 
 "IDE
 Plug 'easymotion/vim-easymotion'                 "navegacion agil de edicion

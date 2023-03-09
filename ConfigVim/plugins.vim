@@ -192,8 +192,8 @@ let ayucolor="mirage"
 set background=dark
 let g:gruvox_cotrast_dark="hard"
 let g:lightline = {
-      \ 'colorscheme': 'onedark',
-      \ }
+                  \ 'colorscheme': 'onedark',
+                  \ }
 colorscheme onedark
 
 "configuracion airline
