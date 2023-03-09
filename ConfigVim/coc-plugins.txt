@@ -76,7 +76,7 @@ Plug 'tpope/vim-surround'             "Auto encapsulado
 "Navigation
 Plug 'benmills/vimux'                 "Controlador Window
 
-"Syntax
+"Syntax polyglot syntax
 Plug 'sheerun/vim-polyglot'
 Plug 'tmhedberg/simpylfold'
 
