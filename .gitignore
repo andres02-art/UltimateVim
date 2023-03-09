@@ -1,5 +1,5 @@
-/plugged
-/undos
-/swaps
-/backups
-
+/plugged/
+/undos/
+/swaps/
+/backups/
+vsvimrc.*
