@@ -1,0 +1,54 @@
+1 ¿que contiente la carpeta APP?
+2 ¿que coniene HTTP y que caractesisticas tiene?
+3 ¿que contiene console y que caractesisticas tiene?
+4 ¿quien maneja los errores de laravel?
+5 ¿que contiene PROVAIDERS?
+6 ¿Cual carpeta es el corazon de laravel?
+7 ¿que contiene MODELS y que caractesisticas tiene?
+8 ¿que hacen los archivos dentro de la carpeta de config y que caractesisticas tienen?
+9 ¿que configuraciones son importantes cuales no?
+10 ¿que contiene y hace database en laravel?
+11 ¿que caractesisticas tiene database de laravel?
+12 ¿que hace lang?
+13 ¿que es y que se debe tener en cuenta de public?
+14 ¿que contiene reource y quein lo transpila?
+15 ¿que contiene route?
+16 ¿cuales son los enrutadores mas utilizados?
+17 ¿que contiene la carpeta stores?
+18 ¿que contiene la carpeta test?
+19 ¿donde estan los paquetes de laravel?
+20 ¿que es artisan?
+21 ¿cuales son los comandos mas importantes de make?
+22 ¿cual es el comando al crear tablas?
+23 ¿cual es el comando al crear triggers?
+24 ¿cuales son los comandos para crear validaciones?
+25 ¿Cuales sonlos comandos para provar la base de datos?
+26 ¿como se ejecutan un job?
+27 ¿cuales son los metodos mas importantes en Scheme::table y que hace cada uno?
+28 ¿que es y que hace el metodo enum?
+29 ¿como se debe eliminar una tabla?
+30 ¿como alterar una tabla?
+31 ¿que debe tener y por que un alter?
+32 ¿que es un seeder?
+33 ¿Como se ejecuta un seeder de dos modos?
+34 ¿Como se crea un seeder?
+35 ¿como importa un seeder?
+36 ¿cual es la clase para manejar seeders?
+37 ¿que metodos se usan para manejar los seeders?
+38 ¿como funciona un insert en un seeder?
+39 ¿que se debe tener en cuenta a la hora de usar un seeder?
+40 ¿Cual es la funcion hash de contraseñas en laravel?
+41 ¿que se requiere para que funcione el factory?
+42 ¿que es faker?
+43 ¿como funciona la definicion del factory?
+44 ¿Como se declara def en factories?
+45 ¿como se declara el modelo migratorio en los factories?
+46 ¿como funcionan los trigers en los factories?
+47 ¿como se declara configure en factories?
+48 ¿como se llama el metodo para los trigers en configure?
+49 ¿como se llama una funcion def de factory?
+50 ¿como se configuran las llaves foraneas en un factory?
+51 ¿como y en que metodo se declara la llave foranea?
+52 ¿como se declara la relacion de llaves foraneas en los archivos factories?
+53 ¿Como se ejecuta correctamente un seeder?
+

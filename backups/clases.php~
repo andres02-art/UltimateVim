@@ -1,0 +1,55 @@
+<?php
+class Clase1 {
+	private string $id;
+	public function __construct($x){
+		$this->name = $x;
+		$this->id = uniqid();
+		$this->__init__object($this);
+	}
+	private function __init__object($x)
+	{
+		foreach($x as $key => $value){
+			print($value.$key);
+			print($this->id);
+		}
+	}
+}
+
+class Clase2{
+	public function __construct(private string $name, private int $tel, private string $id){
+		$this->__init__object($this);
+	}
+	private function __init__object($x){
+		echo "Se ha inicializado el objeto ".$x->id." de nombre".$x->name;
+	}
+	public function __get__item($x){
+		switch($x){
+		case 'name':
+			return $this->name;
+		case 'id':
+			return $this->id;
+		case 'tel':
+			return $this->tel;
+		default:
+			return "item not found";
+		}
+	}
+}
+class Clase3 extends Clase2
+{
+	private $name;
+	public function __construct(string $name) {
+		$this->name = $name;
+	}
+	public function __str__()
+	{
+		return $this->name;
+	}
+}
+
+$Class1 = new Clase1("andres");
+$Class2 = new Clase2("andres", 3132077827, uniqid());
+
+echo $Class2->__get__item('id').$Class2->__get__item('tel').$Class2->__get__item('name');
+
+?>

@@ -1,0 +1,13 @@
+1 es un framework que se aplica atravez de los atributos de etiquetas html
+2 es un constructor que crea nuevas etiquetas personalizadas
+3 acepta como parametro un objeto constructor para controlarlo con las directivas vue
+4 en el objeto constructor el se define que etiqueta ejecuta vue o con su metodo mount() a travez de getelementbyID
+5 son para inicializar datos y variables en el constructor
+6 este es para darle cuerpo con etiquetas html al componente vue
+7 este le da funciones al template para comunicarse con otros componentes
+8 es un metodo del constructor vue, sirve para crear etiquetas personalizadas acepta como parametro el nombre de la
+nueva etiqueta y el objeto constructor
+9 vue se anida mediante template, se escribe el componente dentro del template de otro componente
+10 los componentes se cargan el template individualmente sin embargo se pueden anidar
+11 a travez de los atributos : indica la data @ indica sus metodos v- indica las directivas de vue
+12 Vue.component('<etiqueta>', {componente})

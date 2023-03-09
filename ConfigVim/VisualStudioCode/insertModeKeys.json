@@ -1,0 +1,88 @@
+   {
+        "before": [
+            "<leader>",
+            "k"
+        ],
+        "commands": [
+            "workbench.action.files.save"
+        ]
+    },
+    {
+        "before": ["<leader>","q"],
+        "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+        "before" : ["<leader>","p"],
+        "after":["<Esc>","p","a"]
+    },
+    {
+        "before" : ["<leader>","P"], 
+        "after" : ["<Esc>","P","a"]
+    },   
+    {
+        "before": ["<C-s>"],
+        "after" : ["<leader>","k","<leader>","q"]
+    },
+    {
+        "before": ["<C-j>"], 
+        "after": ["<Esc>","d","d","0","p","i"] 
+    }, 
+    {
+        "before": ["<leader>","<leader>"],
+        "commands": ["workbench.action.terminal.splitInstance"]
+    }
+    //copia linea hacia abajo:
+    //"before": <C-h> <Esc>Ypi
+    //"before": <C-k> <Esc>dd0kPi
+    //copia linea hacia arriba:
+    //"before": <C-l> <Esc>YPi
+    //movimiento entre buffers:
+    //"before": <C-d> <Esc><C-w>li
+    //"before": <C-w> <Esc><C-w>ki
+    //"before": <C-s> <Esc><C-w>ji
+    //"before": <C-a> <Esc><C-w>hi
+    //desplazamiento:
+    //"before": <leader>h <Esc>e2bi
+    //"before": <leader>l <Esc>ewi
+    //"before": <leader>L <Esc>A
+    //"before": <leader>H <Esc>I
+    //"before": <M-l> <Esc>la
+    //"before": <M-k> <Esc>ka
+    //"before": <M-j> <Esc>ja
+    //"before": <M-h> <Esc>i
+    //"before": <leader>p <Esc>2lR
+    //desplazamiento a modos:
+    //"before": <leader>r <Esc>R
+    //"before": <leader>v <Esc>v
+    //"before": <leader>n <Esc>l
+    //"before": <leader>o <C-o>
+    //instancias rapidas:
+    //"before": <leader>, <Esc>:terminal<CR><C-w>x:resize +12<CR><C-w>w
+    //"before": <leader><tab> <Esc>:NERDTreeVCS<CR>
+    //"before": <leader>f <Esc>:<C-s>
+    //"before": <leader>F <Esc>:/
+    //"before": <C-v> <Esc>:tabnew ~\vimrc.vim<CR>:NERDTreeFind ~\.vim\<CR>
+    //"before": <leader><C-s> <Esc>:split  
+    //"before": <leader><C-v> <Esc>:vsplit 
+    //linea rapida:
+    //"before": <S-tab> <Esc>0xx
+    //"before": <C-CR> <nop>
+    //"before": <leader><CR> <C-o>o
+    //"before": <S-CR> <C-o>O
+    //Avanzar paginas:
+    //"before": <M-w> <C-o><S-up>
+    //"before": <M-s> <C-o><S-down>
+    //movimiento entre tablas:
+    //"before": <M-d> <Esc>:tabn<CR>gg
+    //"before": <M-i> <Esc>:tabp<CR>gg
+    //"before": <M-c> <Esc>:tabnew 
+    //movimiento de bufers:
+    //"before": <C-space> <Esc>:w<CR>:bn<CR>i
+    //"before": <S-space> <Esc>:w<CR>:bp<CR>i
+    //"before": <leader>w :w<cr>:tabnew ~\appdata\local\tempvim<cr>:NERDTreeVCS<cr><c-w>w:q!<cr>
+    //eliminar palabras:
+    //"before": <C-e> <Esc>dwi
+    //"before": <C-q> <Esc>dbi
+    //"before": <M-q> <Esc>e2bdwi
+    //"before": <M-e> <Esc>ewdwi
+    //"before": <C-x> <Esc>lxi

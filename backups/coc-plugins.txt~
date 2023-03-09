@@ -1,0 +1,16 @@
+coc-php-cs-fixer
+coc-phpls
+coc-sql
+coc-html
+coc-vimtex
+coc-vimlsp
+coc-json
+coc-tsserver
+@yaegassy/coc-intelephense
+coc-blade
+coc-snippets
+coc-db
+coc-blade-linter
+coc-css
+coc-tailwindcss
+

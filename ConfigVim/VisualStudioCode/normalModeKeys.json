@@ -1,0 +1,5 @@
+{
+    "before":["leader","k"],
+    "commands":["workbench.action.files.save"]
+
+}

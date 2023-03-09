@@ -1,0 +1,83 @@
+version 0.0.04
+
+se han añadido controlladores a BD
+se han añadido seeders a BD
+se han añadido factories a BD
+se ha corregido los modelos migratorios y las llaves foraneas
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch alpha.0.0.02
+# Changes to be committed:
+#   new file:   app/Http/Controllers/Auth/ConfirmPasswordController.php
+#   new file:   app/Http/Controllers/Auth/ForgotPasswordController.php
+#   new file:   app/Http/Controllers/Auth/LoginController.php
+#   new file:   app/Http/Controllers/Auth/RegisterController.php
+#   new file:   app/Http/Controllers/Auth/ResetPasswordController.php
+#   new file:   app/Http/Controllers/Auth/VerificationController.php
+#   renamed:    app/Http/Controllers/authorsController.php -> app/Http/Controllers/AuthorController.php
+#   modified:   app/Http/Controllers/BookController.php
+#   renamed:    app/Http/Controllers/categoriesController.php -> app/Http/Controllers/CategoryController.php
+#   new file:   app/Http/Controllers/HomeController.php
+#   new file:   app/Http/Controllers/UserController.php
+#   deleted:    app/Http/Controllers/UsersControllers.php
+#   deleted:    app/Http/Controllers/usersController.php
+#   new file:   app/Http/Requests/StoreAuthorRequest.php
+#   new file:   app/Http/Requests/StoreCategoryRequest.php
+#   new file:   app/Http/Requests/UpdateAuthorRequest.php
+#   new file:   app/Http/Requests/UpdateCategoryRequest.php
+#   new file:   app/Models/Author.php
+#   deleted:    app/Models/Authors.php
+#   new file:   app/Models/Book.php
+#   new file:   app/Models/Category.php
+#   modified:   app/Models/User.php
+#   deleted:    app/Models/books.php
+#   deleted:    app/Models/categories.php
+#   modified:   app/Models/lend.php
+#   new file:   app/Policies/AuthorPolicy.php
+#   new file:   app/Policies/BookPolicy.php
+#   new file:   app/Policies/CategoryPolicy.php
+#   new file:   app/Policies/LendPolicy.php
+#   modified:   app/Providers/AppServiceProvider.php
+#   modified:   composer.json
+#   modified:   composer.lock
+#   modified:   config/database.php
+#   new file:   database/factories/AuthorFactory.php
+#   new file:   database/factories/BookFactory.php
+#   new file:   database/factories/CategoryFactory.php
+#   new file:   database/factories/LendFactory.php
+#   modified:   database/factories/UserFactory.php
+#   modified:   database/migrations/2014_10_12_000000_create_users_table.php
+#   new file:   database/migrations/2014_10_12_100000_create_password_resets_table.php
+#   renamed:    database/migrations/2023_03_02_213943_create_categories_table.php -> database/migrations/2023_03_06_221220_create_categories_table.php
+#   renamed:    database/migrations/2023_03_02_213954_create_authors_table.php -> database/migrations/2023_03_06_221548_create_authors_table.php
+#   renamed:    database/migrations/32023_03_02_213901_create_books_table.php -> database/migrations/2023_03_06_222122_create_books_table.php
+#   renamed:    database/migrations/42023_03_02_213929_create_lends_table.php -> database/migrations/2023_03_06_222146_create_lends_table.php
+#   new file:   database/seeders/AuthorSeeder.php
+#   new file:   database/seeders/BookSeeder.php
+#   new file:   database/seeders/CategorySeeder.php
+#   modified:   database/seeders/DatabaseSeeder.php
+#   new file:   database/seeders/LendSeeder.php
+#   new file:   database/seeders/UserSeeder.php
+#   modified:   package-lock.json
+#   modified:   package.json
+#   modified:   resources/js/app.js
+#   modified:   resources/js/bootstrap.js
+#   new file:   resources/js/components/ExampleComponent.vue
+#   new file:   resources/js/vue.js
+#   new file:   resources/js/vue/index.vue
+#   new file:   resources/sass/_variables.scss
+#   new file:   resources/sass/app.scss
+#   new file:   resources/views/auth/login.blade.php
+#   new file:   resources/views/auth/passwords/confirm.blade.php
+#   new file:   resources/views/auth/passwords/email.blade.php
+#   new file:   resources/views/auth/passwords/reset.blade.php
+#   new file:   resources/views/auth/register.blade.php
+#   new file:   resources/views/auth/verify.blade.php
+#   new file:   resources/views/home.blade.php
+#   modified:   resources/views/index.blade.php
+#   new file:   resources/views/layouts/app.blade.php
+#   modified:   resources/views/login.blade.php
+#   modified:   routes/web.php
+#   modified:   vite.config.js
+#

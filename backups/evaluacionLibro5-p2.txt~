@@ -1,0 +1,50 @@
+1 ¿que nomenclatura debe tener los modelos?
+2 ¿cuales son las variables de los modelos y como se definen?
+3 ¿Que hace cada variable de los modelos?
+4 ¿para que sirve los modelos de laravel?
+5 ¿cuantos tipos de relaciones hay y como funcionan?
+6 ¿como funcionan las relaciones en los modelos de laravel?
+7 ¿cuales son los parametros del metodos para relacionar modelos?
+8 ¿cuales son los dos modos de nombrar las relaciones?
+9 ¿que es un accesor y un mutador y cual es su diferencia?
+10 ¿como se define el mutador y que se debe tener en cuenta?
+11 ¿porque se debe acatar la nomenclatura a rejatabla de un accesor y un mutador?
+12 ¿Donde se da snipercamellcase en set y donde se da en get?
+13 ¿Como se define un accesor y que se debe tener en cuenta?
+14 ¿que se requiere para que funcionne el crear una nueva columna?
+15 ¿donde se da el cast del modelo migratorio?
+16 ¿cuales son las variables de modelo?
+17 ¿que tipo de datos son las variables de modelos?
+18 ¿que son los enrutadores api?
+19 ¿en que consisten los enrutadores api?
+20 ¿como funciona un enrutador api?
+21 ¿como funcionan las apis?
+22 ¿cuales son las respuestas http que genera un servidor?
+23 ¿Donde se tiene que tener cuidado con estos responses?
+24 ¿como se envia informacion a travez de la url?
+25 ¿como funcionan las superclases para metodos magicos?
+26 ¿como realizar un console log en laravel?
+27 ¿cuales superclases se usan para CRUD de data?
+28 ¿como se accede al fillable del modelo y que se debe tener en cuenta?
+29 ¿Cuales son los metodos en las superclases para actualizar y enviar contenido?
+30 ¿como se importa softdeletes y en donde?
+31 ¿Como se eliminan registros y que debo tener en cuenta al hacerlo?
+32 ¿Como se ejecutan los seeders y los factories?
+33 ¿cuantos tipos  de consultas existen?
+34 ¿porque el metodo with debe llevar get consigo?
+35 ¿como funciona la consulta load?
+36 ¿que parametros aceptan las consultas?
+37 ¿cuantos condicionadores existen?
+38 ¿que hace cada condicionador?
+39 ¿Cuales validaciones se hacen en laravel?
+40 ¿Cual es el comando para crear una validacion?
+41 ¿como funcionan las validaciones?
+42 ¿cuales funciones trae un request por defecto?
+43 ¿como se deben enviar los request para que funcione la validacion?
+44 ¿que funcion se debe crear para traducir los mensajes de error?
+45 ¿como consultar tablas foraneas?
+46 ¿cuantos tipos de validaciones hay?
+47 ¿cual es la validacion para claves duplicadas?
+48 ¿cual es la validacion de campos no null?
+49 ¿cual es la validacion para contraseñas?
+50 ¿cuales y para que son el resto de validaciones?

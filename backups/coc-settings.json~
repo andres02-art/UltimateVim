@@ -1,0 +1,8 @@
+{
+ "suggest.preferCompleteThanJumpPlaceholder": true,
+ "snippets.massCode.enable": true,
+ "blade.format.enable": true,
+ "blade.enable": true,
+ "bladeLinter.enable": true,
+ "blade.completion.enable": true
+}

@@ -1,0 +1,40 @@
+# A valid snippet should starts wit
+#
+#		snippet trigger_word [ "description" [ options ] ]
+#
+# and end with:
+#
+#		endsnippet
+#
+# Snippet options:
+#
+#		b - Beginning of line.
+#		i - In-word expansion.
+#		w - Word boundary.
+#		r - Regular expression
+#		e - Custom context snippet
+#		A - Snippet will be triggered automatically, when condition matches.
+#
+# Basic example:
+#
+#		snippet emitter "emitter properties" b
+#		private readonly ${1} = new Emitter<$2>()
+#		public readonly ${1/^_(.*)/$1/}: Event<$2> = this.$1.event
+#		endsnippet
+#
+# Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
+snippet nav.navbar "Navigation header bar for bootstrap with emmet syntax" b
+nav.navbar.navbar-expand${1:.navbar-light}.bg-${2:light}#${3:NavigatorID}>div.container-fluid>a.navbar-brand{${4:NavigatorName}}+button.navbar-toggler>span.navbar-toggler-icon^div.collapse.navbar-collapse#navbarSupportedContent>ul.navbar-nav${5:NavigatorStyle}#${4:NavigatorName}
+endsnippet
+
+snippet li.nav-item "Description" b
+li.nav-item${1:.OptNav}#n$*${2:NumOpt}>${3:OptType}.nav-link.${4:OptlinkStyle}#c$*${5:NumOptlink}{${6:ContentOptlink}}+${7:ConcatOptlink}
+endsnippet
+
+snippet dialog.modal "Description" b
+dialog.${5:${1:modal-x/container-x}${2:.modal-fullscreen}${3:.modal-dialog-scrollable}${4:.OptDialog}}#${6:NameDialog}>form.modal-content#${7:NameForm}>div.modal-header>${8:TypeTitleModal}.modal-title{${8:NameModel}}>^div.modal-body
+endsnippet
+
+snippet divform.mb "Description" b
+div${1:.ColSettings}.mb-3*${2:NumOpt}>label.form-label{${2:LabelTitle}}+input.form-control#i$+@error('l$')>p.form-text.text-danger
+endsnippet

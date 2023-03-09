@@ -1,0 +1,4 @@
+{
+    "before":["<leader>","n"],
+    "after":["<Esc>"]
+}

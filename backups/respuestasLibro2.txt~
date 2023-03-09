@@ -1,0 +1,32 @@
+1 el modo de hiperposición, de este modo se pueden acceder a otros modos de vim utilizando los Supermodos de este modo
+se crean nuevos atajos que permiten acceder a la consola o al terminal desde ella misma u otros modos siempre volviendo
+al origen donde se invoco dicho comando
+2 los atajos que comienzan con , f seguido de leader desde cualquier posicion y su accion "ff, fg, fb, fl etc"
+3 en neotree puedes hacer splits con "s" y su prima, marcar archivos abrir en un nuevo tab "t", tambien se incorporaron
+los cruds basicos de elimidar "d", editar "r", crear "a", actualizar "<cr>", archivos dentro de su arbol desplegado
+4 mediante el plugin de fuzzy finder inserta comandos de busqueda "fg" grep "fw" word "fb" buffer y encuentra y lista
+dichos archivos
+5 es un plugin que permite encontrar lines de texto en todos los archivos "grep" de manera mucho mas avanzada
+6 el atajo especifico es . que indica comando d que indica dbdadbob seguido de leader
+7 es un plugin que implementa los comandos de mysql u otros lenguajes a vim
+8 es un plugin que permite la visualizacion en tiempo real de la base de datos
+9 los atajos que comienzan con h opcion seguido de leader
+10 es una version de git que se enfoca en manejar librerias de un archivo
+11 es un plugin que implementa los comandos de git terminal en vim
+12 es una version del codigo realizada guardada en una instancia de git sin version commit, una vez echa el proyecto
+volvera a la ultima version fetch realizada del mismo
+13 mediante la consola git stash se realiza a un archivo en concreto o todo el proyecto
+14 los atajos que comienzan con g opcion seguido de leader
+15 es una funcion realizada con comandos de vim ejecutable
+16 con una tecla nominal seguido de la letra q aparecera por ejemplo "grabando @x" en la consola, despues de eso grabara
+todos los comandos que se hayan puesto y para acabar denuevo q
+17 con la letra nominal seguido de @ por ejemplo "@x" para que reproduzca todo dentro del marcho
+18 con el comando git checkout verificas y cambias de rama
+19 manera pull empujando todo el contenido, manera cherry empujando desde un commit
+20 es un comando git cherry-pick que realiza un pull de un commit
+21 cada commit de cada version tiene un hash code como id, cherry utiliza ese hash para escojer el commit y realizar el
+pull
+22 nominal de la rama seguido del comando git branch
+23 git log despliega un archivo con los commits echos a la rama activa
+24 git show-branch despliega un log con las versiones de las ramas
+25 git branch despliega las ramas y la rama activa
