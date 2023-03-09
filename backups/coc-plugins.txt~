@@ -14,3 +14,91 @@ coc-blade-linter
 coc-css
 coc-tailwindcss
 
+"IDE
+Plug 'easymotion/vim-easymotion'                 "navegacion agil de edicion
+
+Plug 'nvim-neo-tree/neo-tree.nvim'               "nvim explorer
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'MunifTanjim/nui.nvim'
+
+" post install (yarn install | npm install) then load plugin only for editing supported files
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+Plug 'chiel92/vim-autoformat'                    "Formater para archivos
+Plug 'editorconfig/editorconfig-vim'
+
+Plug 'tpope/vim-fugitive'                        "Git y Github
+Plug 'tpope/vim-rhubarb'                         "required by fugitive to :Gbrowse
+Plug 'mattn/gist-vim'
+Plug 'mattn/webapi-vim'
+
+Plug 'mhinz/vim-signify'
+Plug 'kristijanhusak/vim-packager', { 'type': 'opt' }
+Plug 'tpope/vim-dadbod'                          "Database motor -Complementation Plug 'kristijanhusak/vim-dadbod-completion' scripts for sql
+Plug 'tpope/vim-dotenv'
+
+Plug 'junegunn/fzf'                              "editor global
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'nvim-telescope/telescope-fzf-writer.nvim'
+Plug 'mhinz/vim-grepper'                         "grep command
+Plug 'mhinz/vim-grepper', { 'on': ['Grepper', '<plug>(GrepperOperator)'] }
+
+
+Plug 'scrooloose/nerdcommenter'                  "inteligence comments
+
+" debug y test
+Plug 'benmills/vimux'
+Plug 'tyewang/vimux-jest-test'                   "Testing motor
+Plug 'janko-m/vim-test'
+Plug 'editor-bootstrap/vim-bootstrap-updater'    "Testing for bootstrap
+Plug 'tomasr/molokai'
+
+" Autocompletado Coc de vim y neo vim y vanilla 6
+Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'sirver/ultisnips'
+Plug 'mattn/emmet-vim'
+Plug 'jceb/emmet.snippets'
+Plug 'isruslan/vim-es6'
+
+"typing
+Plug 'jiangmiao/auto-pairs'           "emparejar llaves
+Plug 'alvan/vim-closetag'             "Auto cerrado
+Plug 'tpope/vim-surround'             "Auto encapsulado
+
+"Navigation
+Plug 'benmills/vimux'                 "Controlador Window
+
+"Syntax
+Plug 'sheerun/vim-polyglot'
+Plug 'tmhedberg/simpylfold'
+
+"Status bar
+Plug 'vim-airline/vim-airline'
+
+"sistemu de claves
+Plug 'autozimu/languageclient-neovim', {'branch': 'next', 'do': 'bash install.sh'}
+Plug 'shmargum/vim-sass-colors'       "tema para RGB HEX
+
+"Sitema para multiples cursores
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'terryma/vim-multiple-cursors'
+
+"TEMAS
+Plug 'joshdick/onedark.vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'morhetz/gruvbox'
+Plug 'kristijanhusak/vim-dadbod-ui'               "Database gui
+
+Plug 'bling/vim-airline'                          "tema para vim la interface
+Plug 'vim-airline/vim-airline-themes'             "diseños para airline
+Plug 'luochen1990/rainbow'                        "tema para los parentesis
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'    "tema de iconos
+Plug 'nathanaelkane/vim-indent-guides'            "tema para los identados

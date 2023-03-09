@@ -59,7 +59,7 @@ Plug 'janko-m/vim-test'
 Plug 'editor-bootstrap/vim-bootstrap-updater'    "Testing for bootstrap
 Plug 'tomasr/molokai'
 
-" Autocompletado Coc de vim y neo vim
+" Autocompletado Coc de vim y neo vim y vanilla 6
 Plug 'neoclide/coc.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
