@@ -14,6 +14,7 @@ coc-blade-linter
 coc-css
 coc-tailwindcss
 coc-vetur
+coc-prettier
 
 "IDE
 Plug 'easymotion/vim-easymotion'                 "navegacion agil de edicion
