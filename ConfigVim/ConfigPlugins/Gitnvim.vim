@@ -37,14 +37,14 @@ imap <leader>ha <leader>nn:Git add
 imap <leader>hS <leader>nn:Git stah
 imap <leader>hg <leader>nn:Git stage
 imap <leader>hr <leader>nn:Git remote add -m origin
-imap <leader>hc <leader>nn:Git commit<CR>
+imap <leader>hc <leader>nn:Git commit<CR>a
 imap <leader>hC <leader>nn:Git clone
 imap <leader>hf <leader>nn:Git fetch
 imap <leader>hf <leader>nn:GitFiles<CR>
 imap <leader>hb <leader>nn:Git branch
 imap <leader>hd <leader>nn:Git diff
 imap <leader>hD <leader>nn:Git difftool
-imap <leader>hi <leader>nn:Git init<CR>
+imap <leader>hi <leader>nn:Git init<CR>a
 imap <leader>hm <leader>nn:Git merge
 imap <leader>hM <leader>nn:Git mergetool
 imap <leader>hB <leader>nn:Git show-branch<CR>
