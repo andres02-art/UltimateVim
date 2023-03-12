@@ -36,9 +36,13 @@ imap <leader>iO <leader>nnOi
 
 imap <leader>dd <leader>nnlddi
 imap <leader>dw <leader>nnlebdwi
-imap <leader>db <leader>nnle2bdwi
-imap <leader>dB <leader>nnlE2BdWi
+imap <leader>db <leader>nnle2bdei
+imap <leader>dB <leader>nnlE2BdEi
+imap <leader>de <leader>nnlebdei
+imap <leader>dE <leader>nnlEBdEi
 imap <leader>dW <leader>nnlEBdWi
+imap <leader>dj <leader>nnljddki
+imap <leader>dk <leader>nnlkddi
 imap <leader>da <leader>nnldbi
 imap <leader>di <leader>nnldwi
 imap <leader>d´ <leader>nnld{i
@@ -63,6 +67,8 @@ imap <M-l> <leader>nnla
 imap <M-k> <leader>nnka
 imap <M-j> <leader>nnja
 imap <M-h> <leader>nni
+imap <M-i> <leader>nn<M-i>
+imap <M-d> <leader>nn<M-d>
 "modo pliegue {{
 
 imap <leader>zf <leader>nnzfi
@@ -76,7 +82,17 @@ imap <leader>zi <leader>nnzii
 "}}
 "modo replace {{{
 
-imap <leader>rr <leader>nnR
+imap <leader>rr <leader>nnlR
+imap <leader>rw <leader>nnlebve<c-g>
+imap <leader>rb <leader>nnle2bevb<C-G>
+imap <leader>rW <leader>nnlEBvE<c-g>
+imap <leader>rB <leader>nnlE2BEvB<C-G>
+imap <leader>r. <leader>nnlhv<c-g>
+imap <leader>r<leader> <leader>nnllv<C-G>
+imap <leader>rh <leader>nnlvh<c-g>
+imap <leader>rl <leader>nnlvl<C-G>
+imap <leader>rj <leader>nnj$v0w<c-g>
+imap <leader>rk <leader>nnk$v0w<c-g>
 
 "}}}
 "modo visual {{{
@@ -88,6 +104,9 @@ imap <leader>vb <leader>nnle2bve
 imap <leader>vW <leader>nnlEBvW
 imap <leader>vE <leader>nnlEBvE
 imap <leader>vB <leader>nnlE2BvE
+imap <leader>vj <leader>nnjVk
+imap <leader>vk <leader>nnkV
+imap <leader>vL <leader>nnV
 imap <leader>vp <leader>nnl{v}
 imap <leader>vq <leader>nnl<C-Q>
 imap <leader>vg <leader>nnlv<C-g>
@@ -167,6 +186,7 @@ imap <leader>gx <leader>nn:w<cr>:tabnew ~\appdata\local\tempvim<cr>:NERDTreeVCS<
 " The default vimrc file.
 "
 imap <leader>gw <leader>nn<C-w><C-w>
+imap <leader>gd <leader>nngd<leader>vw
 imap <leader>gh <leader>nn<C-w>h
 imap <leader>gl <leader>nn<C-w>l
 imap <leader>gk <leader>nn<C-w>k
@@ -195,6 +215,22 @@ imap <C-x> <leader>nnlxi
 "}}}
 
 "navegacion en modo normal {{{
+
+nmap <leader>rr R
+nmap <leader>rw ebve<c-g>
+nmap <leader>rb e2bevb<C-G>
+nmap <leader>rW EBvE<c-g>
+nmap <leader>rB E2BEvB<C-G>
+nmap <leader>r. hv<c-g>
+nmap <leader>r<leader> lv<C-G>
+nmap <leader>rh vh<c-g>
+nmap <leader>rl vl<C-G>
+nmap <leader>rj j$v0w<c-g>
+nmap <leader>rk k$v0w<c-g>
+
+
+nmap <leader>in i<leader>in
+nmap <leader>ip i<leader>ip
 
 "guardar y actualizar archivo:
 nmap <leader>k :w<CR>
@@ -280,6 +316,9 @@ nmap <leader>vb e2bve
 nmap <leader>vW EBvW
 nmap <leader>vE EBvE
 nmap <leader>vB E2BvE
+nmap <leader>vj jVk
+nmap <leader>vk kV
+nmap <leader>vl V
 nmap <leader>vp {v}
 nmap <leader>vq <C-Q>
 nmap <leader>vg v<C-g>
@@ -295,9 +334,13 @@ nmap <leader>v} }v}
 
 nmap <leader>dd dd
 nmap <leader>dw ebdw
-nmap <leader>db e2bdw
-nmap <leader>dB E2BdW
+nmap <leader>de ebde
+nmap <leader>db e2bde
+nmap <leader>dB E2BdE
 nmap <leader>dW EBdW
+nmap <leader>dE EBdE
+nmap <leader>dj jddk
+nmap <leader>dk kdd
 nmap <leader>da db
 nmap <leader>di dw
 nmap <leader>dp {d}
@@ -321,7 +364,6 @@ nmap <leader>tc :split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wicomposer
 nmap <leader>tn :split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>winpm
 nmap <leader>tj :split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wijava
 "
-
 "}}}
 
 "navegacion en modo comando {{{
@@ -343,6 +385,8 @@ xmap <C-d>k yPV
 "movimiento entre lineats
 xmap <M-k> xkP
 xmap <M-j> xp
+xmap <M-i> <leader>nn<M-i>
+xmap <M-d> <leader>nn<M-d>
 "movimiento:
 xmap <C-i> y<C-c>i
 xmap <C-j> 10j
@@ -367,7 +411,7 @@ vmap <leader>tp <leader>nn:split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wiphp
 vmap <leader>tc <leader>nn:split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wicomposer
 vmap <leader>tn <leader>nn:split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>winpm
 vmap <leader>tj <leader>nn:split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wijava
-tmap <leader>.t <cmd>tabnew split<cr>:terminal<cr>i
+vmap <leader>.t <cmd>tabnew split<cr>:terminal<cr>i
 
 "modo seleccion {{{
 
@@ -375,6 +419,21 @@ tmap <leader>.t <cmd>tabnew split<cr>:terminal<cr>i
 smap <C-a> <C-c>ggvG<end><C-g>
 "seleccionar linea
 smap <C-l> <C-c>0v<end><C-g>
+smap <leader>nn <Esc>
+smap <leader>vg <leader>nn<leader>vg
+
+smap <leader>rr <leader>nnR
+smap <leader>rw <leader>nnebve<c-g>
+smap <leader>rb <leader>nne2bevb<C-G>
+smap <leader>rW <leader>nnEBvE<c-g>
+smap <leader>rB <leader>nnE2BEvB<C-G>
+smap <leader>r. <leader>nnhv<c-g>
+smap <leader>r<leader> <leader>nnlv<C-G>
+smap <leader>rh <leader>nnvh<c-g>
+smap <leader>rl <leader>nnvl<C-G>
+smap <leader>rj <leader>nnj$v0w<c-g>
+smap <leader>rk <leader>nnk$v0w<c-g>
+
 "}}}
 
 "modo split<cr>:terminal {{{
@@ -383,6 +442,8 @@ tnoremap <leader>vv <c-\><c-n>v
 tnoremap <leader>ss <c-\><c-n>v<c-g>
 tnoremap <leader>.. <c-\><c-n>:
 tnoremap <leader>q <c-\><cmd>q<cr>
+tmap <M-i> <leader>nn<M-i>
+tmap <M-d> <leader>nn<M-d>
 "modo eliminar {{{
 tmap <leader>dd <leader>nnddi
 tmap <leader>dw <leader>nnebdwi
