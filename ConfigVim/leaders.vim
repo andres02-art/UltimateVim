@@ -34,19 +34,23 @@ imap <leader>iO <leader>nnOi
 "}}}
 "modo eliminar {{{
 
-imap <leader>dd <leader>nnddi
-imap <leader>dw <leader>nnebdwi
-imap <leader>db <leader>nnedbi
-imap <leader>dB <leader>nnedBi
-imap <leader>dW <leader>nnebdWi
-imap <leader>d{ <leader>nnd{i
-imap <leader>d} <leader>nnd}i
-imap <leader>dD <leader>nnDi
-imap <leader>d<leader> <leader>nnxi
-imap <leader>d. <leader>nnXi
-imap <leader>dc <leader>nnCi
-imap <leader>dC <leader>nncc
-imap <leader>dh <leader>nn:GRemove
+imap <leader>dd <leader>nnlddi
+imap <leader>dw <leader>nnlebdwi
+imap <leader>db <leader>nnle2bdwi
+imap <leader>dB <leader>nnlE2BdWi
+imap <leader>dW <leader>nnlEBdWi
+imap <leader>da <leader>nnldbi
+imap <leader>di <leader>nnldwi
+imap <leader>d´ <leader>nnld{i
+imap <leader>dç <leader>nnld}i
+imap <leader>d{ <leader>nnl{d{i
+imap <leader>d} <leader>nnl}d}i
+imap <leader>dp <leader>nnl{d}
+imap <leader>d<leader> <leader>nnlxi
+imap <leader>d. <leader>nnlXi
+imap <leader>dc <leader>nnlCi
+imap <leader>dC <leader>nnlc0i
+imap <leader>dh <leader>nnl:GRemove
 
 "}}}
 "movimiento entre buffers:
@@ -77,18 +81,22 @@ imap <leader>rr <leader>nnR
 "}}}
 "modo visual {{{
 
-imap <leader>vv <leader>nnv
-imap <leader>vw <leader>nnebvw
-imap <leader>ve <leader>nnebve
-imap <leader>vb <leader>nne2bve
-imap <leader>vW <leader>nnEBvW
-imap <leader>vE <leader>nnEBvE
-imap <leader>vB <leader>nnE2BvE
-imap <leader>vp <leader>nn{v}
-imap <leader>vq <leader>nn<C-Q>
-nmap <leader>vg <leader>nnv<C-g>
-nmap <leader>v{ <leader>nnv{
-nmap <leader>v} <leader>nnv}
+imap <leader>vv <leader>nnlv
+imap <leader>vw <leader>nnlebvw
+imap <leader>ve <leader>nnlebve
+imap <leader>vb <leader>nnle2bve
+imap <leader>vW <leader>nnlEBvW
+imap <leader>vE <leader>nnlEBvE
+imap <leader>vB <leader>nnlE2BvE
+imap <leader>vp <leader>nnl{v}
+imap <leader>vq <leader>nnl<C-Q>
+imap <leader>vg <leader>nnlv<C-g>
+imap <leader>va vb
+imap <leader>vi vw
+imap <leader>v´ v{
+imap <leader>vç v}
+imap <leader>v{ <leader>nnl{v{
+imap <leader>v} <leader>nnl}v}
 
 "}}}
 "modo normal {{{
@@ -133,6 +141,11 @@ imap <leader>o <C-o>
 "instancias rapidas:
 imap <leader>tt <leader>nn<leader>.<C-s>:split<cr>:terminal<CR><C-w>x:resize +12<CR><C-w>wi
 imap <leader>tT <leader>nn<leader>.<C-s>:vsplit<cr>:terminal<CR><C-w>x:vertical resize +18<CR><C-w>wi
+imap <leader>ts :split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wisass
+imap <leader>tp :split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wiphp
+imap <leader>tc :split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wicomposer
+imap <leader>tn :split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>winpm
+imap <leader>tj :split<cr>:terminal<cr><c-w>x:resize +12<cr><c-w>wijava
 imap <leader>f <leader>nn:<C-s>
 imap <leader>F <leader>nn:/
 imap <leader><C-s> <leader>nn:split
@@ -270,25 +283,33 @@ nmap <leader>vB E2BvE
 nmap <leader>vp {v}
 nmap <leader>vq <C-Q>
 nmap <leader>vg v<C-g>
-nmap <leader>v{ v{
-nmap <leader>v} v}
+nmap <leader>va vb
+nmap <leader>vi vw
+nmap <leader>v´ v{
+nmap <leader>vç v}
+nmap <leader>v{ {v{
+nmap <leader>v} }v}
 
 "}}}
 "modo eliminar {{{
 
-nmap <leader>dd <leader>nnddi
-nmap <leader>dw <leader>nnebdwi
-nmap <leader>db <leader>nnedbi
-nmap <leader>dB <leader>nnedBi
-nmap <leader>dW <leader>nnebdWi
-nmap <leader>d{ <leader>nnd{i
-nmap <leader>d} <leader>nnd}i
-nmap <leader>dD <leader>nnDi
-nmap <leader>d<leader> <leader>nnxi
-nmap <leader>d. <leader>nnXi
-nmap <leader>dc <leader>nnCi
-nmap <leader>dC <leader>nncc
-nmap <leader>dh <leader>nn:GRemove
+nmap <leader>dd dd
+nmap <leader>dw ebdw
+nmap <leader>db e2bdw
+nmap <leader>dB E2BdW
+nmap <leader>dW EBdW
+nmap <leader>da db
+nmap <leader>di dw
+nmap <leader>dp {d}
+nmap <leader>d´ d{
+nmap <leader>dç d}
+nmap <leader>d{ {d{
+nmap <leader>d} }d}
+nmap <leader>d<leader> x
+nmap <leader>d. X
+nmap <leader>dc C
+nmap <leader>dC c0
+nmap <leader>dh :GRemove
 
 "}}}
 "split<cr>:terminal
